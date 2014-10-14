@@ -10,6 +10,9 @@ import java.util.Map.Entry;
 import com.elingwange.qweather.App;
 import com.elingwange.qweather.Const;
 
+/**
+ * Created by elingwange on 2014/10/01..
+ */
 public class SharedPrefUtil {
 
     /**

@@ -7,7 +7,7 @@ import android.net.NetworkInfo;
 import com.elingwange.qweather.App;
 
 /**
- * Created by Ho on 2014/7/10.
+ * Created by elingwange on 2014/10/01..
  */
 public class NetUtil {
 

@@ -25,6 +25,7 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile files('libs/androidannotations-api-3.0.1.jar')
     apt "org.androidannotations:androidannotations:$AAVersion"
+    compile 'com.android.support:support-v4:20.0.0'
 }
 
 apt {
