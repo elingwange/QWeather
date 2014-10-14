@@ -1,18 +1,17 @@
 package com.elingwange.qweather.widget;
 
 import android.content.Context;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.view.ViewCompat;
-import android.support.v4.widget.DrawerLayout;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 
+import android.support.v4.view.GravityCompat;
+import android.support.v4.view.ViewCompat;
+import android.support.v4.widget.DrawerLayout;
+
 /**
- * Created by storm on 14-4-19.
- *
- * 修复不能自定义DrawerListener的bug
+ * Created by elingwange on 2014/10/10.
  */
 public class FoldingDrawerLayout extends DrawerLayout {
     public FoldingDrawerLayout(Context context) {

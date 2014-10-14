@@ -17,6 +17,9 @@ import com.elingwange.qweather.util.NetUtil;
 import com.elingwange.qweather.util.SharedPrefUtil;
 
 
+/**
+ * Created by elingwange on 2014/10/01.
+ */
 @Fullscreen
 @EActivity(R.layout.activity_splash)
 public class SplashActivity extends Activity {

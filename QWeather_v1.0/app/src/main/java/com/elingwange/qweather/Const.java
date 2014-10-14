@@ -1,7 +1,7 @@
 package com.elingwange.qweather;
 
 /**
- * Created by Ho on 2014/6/25.
+ * Created by elingwange on 2014/10/01..
  */
 public class Const {
 
