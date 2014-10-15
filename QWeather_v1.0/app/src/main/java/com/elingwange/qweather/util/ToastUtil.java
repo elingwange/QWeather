@@ -3,12 +3,21 @@ package com.elingwange.qweather.util;
 import android.app.Activity;
 import android.widget.Toast;
 
+<<<<<<< HEAD
 import com.elingwange.qweather.App;
 import com.elingwange.qweather.widget.crouton.Crouton;
 import com.elingwange.qweather.widget.crouton.Style;
 
 /**
  * Created by elingwange on 2014/10/10.
+=======
+import tk.woppo.sunday.App;
+import tk.woppo.sunday.widget.crouton.Crouton;
+import tk.woppo.sunday.widget.crouton.Style;
+
+/**
+ * Created by Ho on 2014/6/25.
+>>>>>>> origin/elingwange
  */
 public class ToastUtil {
 

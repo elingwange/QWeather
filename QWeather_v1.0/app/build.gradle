@@ -26,8 +26,11 @@ dependencies {
     compile files('libs/androidannotations-api-3.0.1.jar')
     apt "org.androidannotations:androidannotations:$AAVersion"
     compile 'com.android.support:support-v4:20.0.0'
+<<<<<<< HEAD
     compile files('libs/volley.jar')
     compile files('libs/gson-2.2.4.jar')
+=======
+>>>>>>> origin/elingwange
 }
 
 apt {

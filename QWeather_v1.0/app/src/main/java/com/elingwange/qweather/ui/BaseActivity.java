@@ -25,7 +25,10 @@ public class BaseActivity extends FragmentActivity {
     /**
      * 自定义加载对话框
      */
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/elingwange
     protected Dialog mLoadingDialog;
 
     /**

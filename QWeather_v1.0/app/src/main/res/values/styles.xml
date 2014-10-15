@@ -1,5 +1,6 @@
 <resources>
 
+<<<<<<< HEAD
     <!-- Base application theme. -->
     <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         <item name="android:windowBackground">@drawable/main_bg</item>
@@ -21,6 +22,8 @@
         <item name="android:src">@drawable/ic_action_overflow</item>
     </style>
 
+=======
+>>>>>>> origin/elingwange
     <!-- 自定义Dialog, 加载Dialog -->
     <style name="loading_dialog_tran" parent="android:style/Theme.Dialog">
         <item name="android:windowFrame">@null</item>
@@ -30,6 +33,10 @@
         <item name="android:windowContentOverlay">@null</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:backgroundDimEnabled">true</item>
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/elingwange
     </style>
 
 </resources>
