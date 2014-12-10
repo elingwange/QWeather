@@ -7,7 +7,7 @@ import android.net.NetworkInfo;
 import elingwange.android.quantum.weather.App;
 
 /**
- * Created by elingwange on 2014/10/01..
+ * Created by elingwange on 2014/10/01.
  */
 public class NetUtil {
 

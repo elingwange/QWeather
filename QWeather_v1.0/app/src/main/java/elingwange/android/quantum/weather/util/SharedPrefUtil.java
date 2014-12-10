@@ -11,7 +11,7 @@ import elingwange.android.quantum.weather.App;
 import elingwange.android.quantum.weather.Const;
 
 /**
- * Created by elingwange on 2014/10/01..
+ * Created by elingwange on 2014/10/01.
  */
 public class SharedPrefUtil {
 

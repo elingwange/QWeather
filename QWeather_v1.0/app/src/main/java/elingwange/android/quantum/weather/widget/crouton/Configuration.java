@@ -30,7 +30,7 @@ public class Configuration {
 
   /**
    * Display a {@link Crouton} for an infinite amount of time or
-   * until {@link de.keyboardsurfer.android.widget.crouton.Crouton#cancel()} has been called.
+   * until {@link elingwange.android.quantum.weather.widget.crouton.Crouton#cancel()} has been called.
    */
   public static final int DURATION_INFINITE = -1;
   /** The default short display duration of a {@link Crouton}. */
@@ -38,7 +38,7 @@ public class Configuration {
   /** The default long display duration of a {@link Crouton}. */
   public static final int DURATION_LONG = 3000;
 
-  /** The default {@link tk.woppo.sunday.widget.crouton.Configuration} of a {@link Crouton}. */
+  /** The default {@link elingwange.android.quantum.weather.widget.crouton.Configuration} of a {@link Crouton}. */
   public static final Configuration DEFAULT;
 
   static {
@@ -58,7 +58,7 @@ public class Configuration {
     this.outAnimationResId = builder.outAnimationResId;
   }
 
-  /** Creates a {@link tk.woppo.sunday.widget.crouton.Configuration.Builder} to build a {@link tk.woppo.sunday.widget.crouton.Configuration} upon. */
+  /** Creates a {@link elingwange.android.quantum.weather.widget.crouton.Configuration.Builder} to build a {@link elingwange.android.quantum.weather.widget.crouton.Configuration} upon. */
   public static class Builder {
     private int durationInMilliseconds = DURATION_SHORT;
     private int inAnimationResId = 0;
@@ -71,7 +71,7 @@ public class Configuration {
      *   The durationInMilliseconds the crouton will be displayed
      *   {@link Crouton} in milliseconds.
      *
-     * @return the {@link tk.woppo.sunday.widget.crouton.Configuration.Builder}.
+     * @return the {@link elingwange.android.quantum.weather.widget.crouton.Configuration.Builder}.
      */
     public Builder setDuration(final int duration) {
       this.durationInMilliseconds = duration;
@@ -86,7 +86,7 @@ public class Configuration {
      *   The resource identifier for the animation that's being shown
      *   when the {@link Crouton} is going to be displayed.
      *
-     * @return the {@link tk.woppo.sunday.widget.crouton.Configuration.Builder}.
+     * @return the {@link elingwange.android.quantum.weather.widget.crouton.Configuration.Builder}.
      */
     public Builder setInAnimation(final int inAnimationResId) {
       this.inAnimationResId = inAnimationResId;
@@ -101,7 +101,7 @@ public class Configuration {
      *   The resource identifier for the animation that's being shown
      *   when the {@link Crouton} is going to be removed.
      *
-     * @return the {@link tk.woppo.sunday.widget.crouton.Configuration.Builder}.
+     * @return the {@link elingwange.android.quantum.weather.widget.crouton.Configuration.Builder}.
      */
     public Builder setOutAnimation(final int outAnimationResId) {
       this.outAnimationResId = outAnimationResId;
@@ -110,9 +110,9 @@ public class Configuration {
     }
 
     /**
-     * Builds the {@link tk.woppo.sunday.widget.crouton.Configuration}.
+     * Builds the {@link elingwange.android.quantum.weather.widget.crouton.Configuration}.
      *
-     * @return The built {@link tk.woppo.sunday.widget.crouton.Configuration}.
+     * @return The built {@link elingwange.android.quantum.weather.widget.crouton.Configuration}.
      */
     public Configuration build() {
       return new Configuration(this);

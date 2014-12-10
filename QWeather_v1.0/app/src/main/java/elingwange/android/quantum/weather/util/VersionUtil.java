@@ -3,7 +3,7 @@ package elingwange.android.quantum.weather.util;
 import android.os.Build;
 
 /**
- * Created by elingwange on 2014/10/01..
+ * Created by elingwange on 2014/10/01.
  */
 public class VersionUtil {
     public static final boolean IS_JBMR2 = Build.VERSION.SDK_INT == Build.VERSION_CODES.JELLY_BEAN_MR2;

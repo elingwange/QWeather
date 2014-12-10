@@ -56,7 +56,7 @@ final class Manager extends Handler {
     }
 
     /**
-     * @return The currently used instance of the {@link tk.woppo.sunday.widget.crouton.Manager}.
+     * @return The currently used instance of the {@link elingwange.android.quantum.weather.widget.crouton.Manager}.
      */
     static synchronized Manager getInstance() {
         if (null == INSTANCE) {
