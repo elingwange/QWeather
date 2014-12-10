@@ -26,13 +26,8 @@ dependencies {
     compile files('libs/androidannotations-api-3.0.1.jar')
     apt "org.androidannotations:androidannotations:$AAVersion"
     compile 'com.android.support:support-v4:20.0.0'
-<<<<<<< HEAD
     compile 'com.google.code.gson:gson:2.2.4'
     compile files('libs/volley.jar')
-=======
-    compile files('libs/volley.jar')
-    compile files('libs/gson-2.2.4.jar')
->>>>>>> 44da2ba86f023d25b7f87d293ed04b880faae010
 }
 
 apt {
