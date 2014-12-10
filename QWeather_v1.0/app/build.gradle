@@ -7,7 +7,7 @@ android {
     buildToolsVersion "20.0.0"
 
     defaultConfig {
-        applicationId "com.elingwange.qweather"
+        applicationId "elingwange.android.quantum.weather"
         minSdkVersion 14
         targetSdkVersion 20
         versionCode 1
@@ -26,16 +26,13 @@ dependencies {
     compile files('libs/androidannotations-api-3.0.1.jar')
     apt "org.androidannotations:androidannotations:$AAVersion"
     compile 'com.android.support:support-v4:20.0.0'
-<<<<<<< HEAD
+    compile 'com.google.code.gson:gson:2.2.4'
     compile files('libs/volley.jar')
-    compile files('libs/gson-2.2.4.jar')
-=======
->>>>>>> origin/elingwange
 }
 
 apt {
     arguments {
         androidManifestFile variant.processResources.manifestFile
-        resourcePackageName 'com.elingwange.qweather'
+        resourcePackageName 'elingwange.android.quantum.weather'
     }
 }

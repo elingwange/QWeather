@@ -1,4 +1,4 @@
-<com.elingwange.qweather.widget.FoldingDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.elingwange.weather.widget.FoldingDrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -21,4 +21,4 @@
         android:layout_height="match_parent"
         android:layout_gravity="right"
         android:choiceMode="singleChoice" />
-</com.elingwange.qweather.widget.FoldingDrawerLayout>
+</com.elingwange.weather.widget.FoldingDrawerLayout>

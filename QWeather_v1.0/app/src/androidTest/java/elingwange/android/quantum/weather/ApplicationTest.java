@@ -1,4 +1,4 @@
-package com.elingwange.qweather;
+package elingwange.android.quantum.weather;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
