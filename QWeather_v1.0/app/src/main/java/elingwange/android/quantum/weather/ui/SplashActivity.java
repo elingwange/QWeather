@@ -9,7 +9,6 @@ import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.Fullscreen;
 
 import elingwange.android.quantum.weather.R;
-import elingwange.android.quantum.weather.ui.MainActivity_;
 
 
 /**
