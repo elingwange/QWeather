@@ -11,21 +11,21 @@ import elingwange.android.quantum.weather.App;
 import elingwange.android.quantum.weather.Const;
 
 /**
- * Created by elingwange on 2014/10/01.
+ * Created by elingwange on 2014/10/15.
  */
 public class SharedPrefUtil {
 
     /**
      * 是否第一次进入程序
      */
-    public static final String IS_FIRST = "isFirst";
-    public static boolean isFirst() {
+    public static final String IS_FRAST = "isFrast";
+    public static boolean isFrast() {
         //获取是否第一次进入
-        return getBoolean(IS_FIRST, true);
+        return getBoolean(IS_FRAST, true);
     }
 
-    public static void setFirst() {
-        putBoolean(IS_FIRST, false);
+    public static void setFrast() {
+        putBoolean(IS_FRAST, false);
     }
 
 	public static boolean getBoolean(String key, boolean defaultValue) {

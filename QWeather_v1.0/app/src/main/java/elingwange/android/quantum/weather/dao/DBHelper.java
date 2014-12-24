@@ -9,7 +9,7 @@ import android.database.sqlite.SQLiteOpenHelper;
  */
 public class DBHelper extends SQLiteOpenHelper {
 
-    protected static final String DB_NAME = "sunday.db";
+    protected static final String DB_NAME = "qweather.db";
     protected static final int DB_VERSION = 2;
 
     public DBHelper(Context context) {

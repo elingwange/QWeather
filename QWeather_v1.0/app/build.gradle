@@ -42,7 +42,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:21.0.0'
     apt "org.androidannotations:androidannotations:$AAVersion"
     compile "org.androidannotations:androidannotations-api:$AAVersion"
-    compile files('libs/volley.jar')
-    compile 'com.google.code.gson:gson:2.2.4'
     compile 'com.android.support:support-v4:21.0.0'
 }

@@ -14,7 +14,7 @@ import elingwange.android.quantum.weather.util.DialogUtil;
 import elingwange.android.quantum.weather.util.ToastUtil;
 
 /**
- * Created by elingwange on 2014/12/1.
+ * Created by elingwange on 2014/11/10.
  */
 public class BaseFragment extends Fragment {
 

@@ -24,7 +24,7 @@ public class DataProvider extends ContentProvider {
      */
     protected static final Object DBLock = new Object();
 
-    protected static final String AUTHORITY = "tk.woppo.sunday.provider";
+    protected static final String AUTHORITY = "elingwange.android.quantum.weather.provider";
 
     public static final String SCHEME = "content://";
 
@@ -35,7 +35,7 @@ public class DataProvider extends ContentProvider {
 
     private static final int WEATHER = 0;
 
-    public static final String WEATHER_CONTENT_TYPE = "vnd.android.cursor.dir/vnd.tk.woppo.sunday.weather";
+    public static final String WEATHER_CONTENT_TYPE = "vnd.android.cursor.dir/vnd.elingwange.android.quantum.weather.weather";
 
     private static final UriMatcher mUriMatcher;
 

@@ -1,7 +1,7 @@
 package elingwange.android.quantum.weather;
 
 /**
- * Created by elingwange on 2014/10/01..
+ * Created by elingwange on 2014/9/15.
  */
 public class Const {
 
@@ -9,7 +9,7 @@ public class Const {
     public static final boolean DEBUG = true;
 
     /** 配置文件名 */
-    public static final String CONFIG_NAME = "setting";
+    public static final String CONFIG_NAME = "QWeather.cof";
     /** 是否退出时杀死进程 */
     public static final String CONFIG_EXIT_KILL = "exit_kill";
     /** 是否发送通知栏通知 */
@@ -42,4 +42,14 @@ public class Const {
     /** 城市列表-县 */
     public static final String TOWN="http://cdn.weather.hao.360.cn/sed_api_area_query.php?grade=town&_jsonp=loadTown&code=0804";
 
+
+//    /** 六天天气 */
+//    public static final String WEATHER = "http://m.weather.com.cn/atad/";
+//
+//    /** 实时天气 */
+//    public static final String WEATHER_NOW = "http://www.weather.com.cn/data/sk/";
+//    public static final String WEATHER_CUR = "http://www.weather.com.cn/data/cityinfo/";
+//
+//    /** 测试URL */
+//    public static final String TEST_URL = "http://m.weather.com.cn/atad/101110101.html";
 }

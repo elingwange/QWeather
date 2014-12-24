@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">量子天气</string>
+    <string name="app_name">QWeather</string>
     <string name="loading">loading...</string>
     <string name="action_settings">设置</string>
     <string name="action_refresh">刷新</string>
@@ -44,11 +44,11 @@
     <string name="error_get_weather">获取天气出错了，亲 -_-!|</string>
     <string name="error_net">亲，您的网络连接错误，请修正重试！</string>
     <string name="version">V1.0</string>
-    <string name="about_content">\t\t量子天气-手机上好用的App\n\n\t\t我们致力于Android应用开发，以最好的品质回馈于您！如果您有什么好的意见或者建议，请联系我们。</string>
+    <string name="about_content">\t\tQWeather手机上好用的App\n\n\t\t我们致力于Android应用开发，以最好的品质回馈于您！如果您有什么好的意见或者建议，请联系我们。</string>
     <string name="contact_us">\n联系我们：</string>
     <string name="email">\nEMail:elingwange@gmail.com</string>
     <string name="start">开始体验</string>
-    <string name="desc">SunDay从此刻开始</string>
+    <string name="desc">QWeather从此刻开始</string>
     <string name="user_feedback">用户反馈</string>
     <string name="auto_update">是否开启自动更新</string>
     <string name="no_kill_model">是否开启免杀模式</string>

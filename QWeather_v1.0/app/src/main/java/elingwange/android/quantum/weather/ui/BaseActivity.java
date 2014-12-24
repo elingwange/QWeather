@@ -17,7 +17,7 @@ import elingwange.android.quantum.weather.util.DialogUtil;
 import elingwange.android.quantum.weather.util.ToastUtil;
 
 /**
- * Created by elingwange on 2014/10/01.
+ * Created by elingwange on 2014/12/15.
  */
 
 public class BaseActivity extends FragmentActivity {
@@ -25,7 +25,6 @@ public class BaseActivity extends FragmentActivity {
     /**
      * 自定义加载对话框
      */
-
     protected Dialog mLoadingDialog;
 
     /**
@@ -43,12 +42,9 @@ public class BaseActivity extends FragmentActivity {
     private void init() {
 
         actionBar = getActionBar();
-        if (actionBar != null)
-        {
-            actionBar.setDisplayHomeAsUpEnabled(true);
-            actionBar.setDisplayShowHomeEnabled(true);
-            actionBar.setHomeButtonEnabled(true);
-        }
+        actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setDisplayShowHomeEnabled(true);
+        actionBar.setHomeButtonEnabled(true);
     }
 
     @Override

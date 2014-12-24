@@ -8,7 +8,7 @@ import elingwange.android.quantum.weather.widget.crouton.Crouton;
 import elingwange.android.quantum.weather.widget.crouton.Style;
 
 /**
- * Created by elingwange on 2014/10/10.
+ * Created by elingwange on 2014/10/15.
  */
 public class ToastUtil {
 
