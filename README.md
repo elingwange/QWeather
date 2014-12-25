@@ -15,8 +15,14 @@
 <h2>预览</h2>
 
 <p>
-<a href="https://github.com/elingwange/QWeather/blob/elingwange/Screenshots/1.png" target="_blank"><img src="https://raw.githubusercontent.com/elingwange/QWeather/elingwange/Screenshots/1.png" alt="SunDay" style="max-width:100%;"></a>
-
+<a href="https://github.com/elingwange/QWeather/blob/elingwange/Screenshots/1.png" target="_blank"><img src="https://raw.githubusercontent.com/elingwange/QWeather/elingwange/Screenshots/1.png" alt="qweather" style="max-width:100%;"></a>
+<a href="https://github.com/elingwange/QWeather/blob/elingwange/Screenshots/2.png" target="_blank"><img src="https://raw.githubusercontent.com/elingwange/QWeather/elingwange/Screenshots/2.png" alt="qweather" style="max-width:100%;"></a>
+<a href="https://github.com/elingwange/QWeather/blob/elingwange/Screenshots/3.png" target="_blank"><img src="https://raw.githubusercontent.com/elingwange/QWeather/elingwange/Screenshots/3.png" alt="qweather" style="max-width:100%;"></a>
+<a href="https://github.com/elingwange/QWeather/blob/elingwange/Screenshots/4.png" target="_blank"><img src="https://raw.githubusercontent.com/elingwange/QWeather/elingwange/Screenshots/4.png" alt="qweather" style="max-width:100%;"></a>
+<a href="https://github.com/elingwange/QWeather/blob/elingwange/Screenshots/5.png" target="_blank"><img src="https://raw.githubusercontent.com/elingwange/QWeather/elingwange/Screenshots/5.png" alt="qweather" style="max-width:100%;"></a>
+<a href="https://github.com/elingwange/QWeather/blob/elingwange/Screenshots/6.png" target="_blank"><img src="https://raw.githubusercontent.com/elingwange/QWeather/elingwange/Screenshots/6.png" alt="qweather" style="max-width:100%;"></a>
+<a href="https://github.com/elingwange/QWeather/blob/elingwange/Screenshots/7.png" target="_blank"><img src="https://raw.githubusercontent.com/elingwange/QWeather/elingwange/Screenshots/7.png" alt="qweather" style="max-width:100%;"></a>
+<a href="https://github.com/elingwange/QWeather/blob/elingwange/Screenshots/8.png" target="_blank"><img src="https://raw.githubusercontent.com/elingwange/QWeather/elingwange/Screenshots/8.png" alt="qweather" style="max-width:100%;"></a>
 </p>
 
 <h2>
