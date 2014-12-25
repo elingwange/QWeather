@@ -97,7 +97,7 @@ public class WeatherUpdateService extends Service {
     }
 
     private void getWeatherFormNet(String id) {
-        executeRequest(new GsonRequest(Const.WEATER_INFO_URL + "?app=tq360&_jsonp=renderData&code=" + id, SunModel.SunRequestData.class, responseListener(), errorListener()));
+        executeRequest(new GsonRequest(Const.WEATHER_INFO_URL + "?app=tq360&_jsonp=renderData&code=" + id, SunModel.SunRequestData.class, responseListener(), errorListener()));
     }
 
     protected void executeRequest(Request<?> request) {

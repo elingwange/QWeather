@@ -36,15 +36,17 @@ public class SplashActivity extends Activity {
     @AfterViews
     void initActivity() {
 
+        isFirst();
+
         // 检测是否开启自动检测更新
-        if (SharedPrefUtil.getBoolean(Const.CONFIG_AUTO_UPDATE, true) && NetUtil.isNetworkConnected()) {
-            updateApk();
-        } else {
-            isFrast();
-        }
+//        if (SharedPrefUtil.getBoolean(Const.CONFIG_AUTO_UPDATE, true) && NetUtil.isNetworkConnected()) {
+//            updateApk();
+//        } else {
+//            isFirst();
+//        }
     }
 
-    private void isFrast() {
+    private void isFirst() {
 
         if (SharedPrefUtil.isFrast()) {
             SharedPrefUtil.putBoolean(Const.CONFIG_AUTO_UPDATE, true);
@@ -84,7 +86,7 @@ public class SplashActivity extends Activity {
             public void onUpdateReturned(int updateStatus, UpdateResponse updateInfo) {
                 switch (updateStatus) {
                     case UpdateStatus.No: // has no update
-                        isFrast();
+                        isFirst();
                         break;
                 }
             }
@@ -94,7 +96,7 @@ public class SplashActivity extends Activity {
             public void onClick(int i) {
 
                 // 进入下界面
-                isFrast();
+                isFirst();
 
                 // 打印日志
                 switch (i) {

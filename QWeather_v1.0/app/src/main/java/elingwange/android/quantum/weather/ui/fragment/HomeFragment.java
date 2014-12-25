@@ -233,7 +233,7 @@ public class HomeFragment extends BaseFragment implements SwipeRefreshLayout.OnR
      * @param id 天气WeatherCode
      */
     private void getWeatherData(String id) {
-        executeRequest(new GsonRequest(Const.WEATER_INFO_URL + "?app=tq360&_jsonp=renderData&code=" + id, SunModel.SunRequestData.class, responseListener(), errorListener()));
+        executeRequest(new GsonRequest(Const.WEATHER_INFO_URL + "?app=tq360&_jsonp=renderData&code=" + id, SunModel.SunRequestData.class, responseListener(), errorListener()));
     }
 
     private void onRefreshData() {

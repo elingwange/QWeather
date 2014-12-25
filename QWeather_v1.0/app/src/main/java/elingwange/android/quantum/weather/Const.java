@@ -32,7 +32,7 @@ public class Const {
     public static final String FILE_CITY_NAME = "city.xml";
 
     /** 天气详情  */
-    public static final String WEATER_INFO_URL="http://tq.360.cn/api/weatherquery/query";
+    public static final String WEATHER_INFO_URL ="http://tq.360.cn/api/weatherquery/query";
     /** 城市列表 */
     public static final String CITY_URL="http://cdn.weather.hao.360.cn/sed_api_area_query.php";
     /** 城市列表-省 */
