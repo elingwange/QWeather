@@ -1,24 +1,22 @@
 
     
 <div id="readme" class="blob instapaper_body">
-    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><h1>
-<a id="user-content-qweather" class="anchor" href="#qweather" aria-hidden="true">
-<span class="octicon octicon-link"></span></a>QWeather</h1>
+
+<h1>QWeather</h1>
 
 <p>量子天气</p>
 
-<h2>
-<a id="user-content-about" class="anchor" href="#about" aria-hidden="true"><span class="octicon octicon-link"></span></a>About</h2>
+
+<h2>About</h2>
 
 <p>练习之作，主要使用Android方面最新的IDE，新的技术、新特性，以及一些流行的开源库 </p>
 
 
-
-<h2>
-<a id="user-content-预览" class="anchor" href="#%E9%A2%84%E8%A7%88" aria-hidden="true"><span class="octicon octicon-link"></span></a>预览</h2>
+<h2>预览</h2>
 
 <p>
-<a href="https://github.com/iQuick/SunDay/blob/master/art/8.png" target="_blank"><img src="https://github.com/iQuick/SunDay/raw/master/art/8.png" alt="SunDay" style="max-width:100%;"></a>
+<a href="https://github.com/elingwange/QWeather/blob/elingwange/Screenshots/1.png" target="_blank"><img src="https://raw.githubusercontent.com/elingwange/QWeather/elingwange/Screenshots/1.png" alt="SunDay" style="max-width:100%;"></a>
+
 </p>
 
 <h2>
