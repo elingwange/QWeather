@@ -29,7 +29,7 @@ public class App extends Application {
     private static Context mContext;
 
     /** 城市列表 */
-    private static List<ProvicneModel> mProvicneModels;
+    private static List<ProvicneModel> mProvinceModels;
     private static List<AreaModel> mAreaModels;
     public static SunModel mCurSunModel;
     private static int mCurWeatherIndex;
@@ -41,7 +41,7 @@ public class App extends Application {
         this.mAreaModels = new ArrayList<AreaModel>();
         this.mCurWeatherIndex = 0;
         this.initMyArea();
-        this.initProvicneModels();
+        this.initProvinceModels();
     }
 
     public static Context getContext() {
@@ -51,17 +51,17 @@ public class App extends Application {
     /**
      * 初始化城市列表
      */
-    private void initProvicneModels() {
+    private void initProvinceModels() {
         try {
             InputStream in = getAssets().open(Const.FILE_CITY_NAME);
-            mProvicneModels = CitySaxParseHandler.getProvicneModel(in);
-            LogUtil.i(TAG, mProvicneModels.toString());
+            mProvinceModels = CitySaxParseHandler.getProvicneModel(in);
+            LogUtil.i(TAG, mProvinceModels.toString());
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
     public static List<ProvicneModel> getProvicneModels() {
-        return mProvicneModels;
+        return mProvinceModels;
     }
 
     /**

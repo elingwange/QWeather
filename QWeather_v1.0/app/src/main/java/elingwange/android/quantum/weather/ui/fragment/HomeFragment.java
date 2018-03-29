@@ -55,7 +55,7 @@ public class HomeFragment extends BaseFragment implements SwipeRefreshLayout.OnR
     private MainActivity activity;
 
     /** 是否第一次进入本Fragment */
-    protected boolean isFrastEnter = true;
+    protected boolean isFirstEnter = true;
 
     private SunDataHelper mSunDB;
 
@@ -107,10 +107,10 @@ public class HomeFragment extends BaseFragment implements SwipeRefreshLayout.OnR
         isFrast();
         setHasOptionsMenu(true);
 
-        if (isFrastEnter) {
+        if (isFirstEnter) {
             initData();
             initView();
-            isFrastEnter = false;
+            isFirstEnter = false;
         }
     }
 
